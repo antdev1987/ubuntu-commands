@@ -1,0 +1,4 @@
+##### $ncal or $cal #####
+will allow you to see the current month's calender printed out.
+ncal stands for "new cal". There is also a "cal" command that does -
+the same exact thing, but ncal adds some fancier functionality
