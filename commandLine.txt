@@ -2,3 +2,30 @@
 will allow you to see the current month's calender printed out.
 ncal stands for "new cal". There is also a "cal" command that does -
 the same exact thing, but ncal adds some fancier functionality
+
+
+///////section 4 getting help//////
+
+##### man pages #####  $man ncal
+to read the specific piece of documentation associated with a given command,
+run man command, for example, to learn more about the ncal command we could -
+run man cal.
+this displays a bunch of information on ncal that we can scroll through. 
+type 'q' to exit.
+
+
+///////section 4 getting help//////
+
+##### $pwd #####
+the print working directory command is super simple but very useful, think of it -
+as a "where am I" command.
+it will print the path of your current working directory, starting from the root /
+for example, if I were on my desktop and I ran pwd, I would see /home/colt/desktop
+
+##### $ls or $ls /home/nicolle #####
+The list command will list the contents of a directory.
+when used with no options or arguments, it prints a list of the files and folders -
+located in the current directory.
+We can also list the contents of a specific directory using "ls path". for example -
+$ls /bin will print the contents of the /bin directory.
+
