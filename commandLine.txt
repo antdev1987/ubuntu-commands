@@ -1,4 +1,4 @@
-##### $ncal or $cal #####
+ ##### $ncal or $cal #####
 will allow you to see the current month's calender printed out.
 ncal stands for "new cal". There is also a "cal" command that does -
 the same exact thing, but ncal adds some fancier functionality
@@ -14,7 +14,7 @@ this displays a bunch of information on ncal that we can scroll through.
 type 'q' to exit.
 
 
-///////section 4 getting help//////
+///////section 4 getting help and 5 navigation//////
 
 ##### $pwd #####
 the print working directory command is super simple but very useful, think of it -
@@ -29,3 +29,49 @@ located in the current directory.
 We can also list the contents of a specific directory using "ls path". for example -
 $ls /bin will print the contents of the /bin directory.
 
+##### $cd /home/nicolle #####
+the cd command is used to change the current working directory, "moving" into another directory.
+For example... cd chickens would change into the chickens directory (assuming it exists)
+cd /home/nicolle would take me to my home directory
+$cd .. "to go back one level, or previous folder"
+
+
+///////section 6 Creating files & folders//////
+
+##### $touch <filename> #####
+to create a new file from the command line, use the touch command. provide a filename, and that file will -
+be created for you (assuming it does't already exit).
+for example, $touch chicken.txt would create a chicken.txt file in the current directory.
+if you try to use touch with a file that already exists, it will simply update the access and modifications dates
+to the current time.
+
+##### $mkdir <foldername> #####
+to create new directories, we use the make directory (mkdir) command. we provide one or more directory
+names, and it will create them for us.
+for example, to create two new folders, images and styles, we could run mkdir images styles
+
+
+///////section 7 Nano//////
+
+##### Nano #####
+Nano is a simple text editor that we can acces right from the terminal, it's far more accessible than other
+popular command-line editors like vim and emacs
+Nano includes all the basic text editing functionality you would expect: search, spellcheck, syntax highlighting, etc.
+
+##### $nano file ##### opening files with nano
+To open up a file using nano, run nano FILE. for example to open up the file book.txt using nano, we -
+would run nano book.txt.
+we can also use the same command to edit a file that doesn't yet exist (we can then save it and create the file).
+
+##### editing with nano #####
+some editors like vim require us to enter "write mode" before we can start editing a file, but with nano we can
+make changes right away.
+we can move the cursor using the arrow keys.
+at the very botton, we'll see a list of shortcuts that we can use inside of nano, these are super useful!
+
+##### $nano <name of a file that does not exit> ##### this way we create new files with nano
+the command above will let you create a new empty file to put text on it, however this file is not created yet
+you have to save the file so it will be created, remember you can use ctrl+s to save it.
+
+##### searching with nano ##### shortcurt ctrl-w
+use ctrl-w and then enter a search phrase to search FORWARD in the file from your current cursor location
