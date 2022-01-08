@@ -75,3 +75,21 @@ you have to save the file so it will be created, remember you can use ctrl+s to 
 
 ##### searching with nano ##### shortcurt ctrl-w
 use ctrl-w and then enter a search phrase to search FORWARD in the file from your current cursor location
+
+
+///////section 8 Deleting, Copying, & Moving//////
+
+##### rm <filename> #####
+we use the remove (rm) command to remove files from our machine.
+for example, rm app.js would remove the app.js file.
+Note: rm DELETES FILES, there is no undo or recycling bin to retrieve them from! they are gone!
+
+##### rm -r <foldername>#####
+to delete empty folders, we need to use the -d option with rm. for example, rm -d cats would remove the
+cats directory (only if it's already empty)
+to delete folders that are not empty, use the -r option. for example, rm -r chickens would delete the chickens
+directory whether it's empty or not.
+you definitely want to be careful when deleting directories!
+
+##### rmdir <emptyfoldername> #####
+this command will delete your folder only if it is empty
