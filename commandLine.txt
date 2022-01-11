@@ -79,17 +79,41 @@ use ctrl-w and then enter a search phrase to search FORWARD in the file from you
 
 ///////section 8 Deleting, Copying, & Moving//////
 
-##### rm <filename> #####
+##### $rm <filename> #####
 we use the remove (rm) command to remove files from our machine.
 for example, rm app.js would remove the app.js file.
 Note: rm DELETES FILES, there is no undo or recycling bin to retrieve them from! they are gone!
 
-##### rm -r <foldername>#####
+##### $rm -r <foldername>#####
 to delete empty folders, we need to use the -d option with rm. for example, rm -d cats would remove the
 cats directory (only if it's already empty)
 to delete folders that are not empty, use the -r option. for example, rm -r chickens would delete the chickens
 directory whether it's empty or not.
 you definitely want to be careful when deleting directories!
 
-##### rmdir <emptyfoldername> #####
+##### $rmdir <emptyfoldername> #####
 this command will delete your folder only if it is empty
+
+##### $mv <source> <destination>  ##### for moving files and folders(directory)
+use the move command (mv) to move files and directories from one location to another.
+
+when we specify a file or files as the source and directory as the destination, we are moving the files
+into the directory
+
+for example, mv app.css styles/ will move the app.css file into the styles directory.
+
+##### $mv <currents> <newname>  ##### renaming is allow too
+we can also use the move command to rename files and folders.
+
+if we specify a single file as the source and a single file as the destination, it will rename the file. for example,
+to rename the chickens.txt file to roosters.txt, we could run $mv chickens.txt roosters.txt
+
+if we specify a single folder as the source and the destination doesn't yet exist, it will rename the folder.
+if the destination folder does exist, it will move our source folder into the destinaion.
+
+##### $cp <source> <destinatoin>  ##### copying files
+we can use the copy command to create copies of files and folders.
+
+to create a copy of sheep.txt called dolly.txt, we could run $cp sheep.txt dolly.txt
+
+to copy multiple files into another directory, use cp file1 file2 directory
