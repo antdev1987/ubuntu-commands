@@ -1,0 +1,15 @@
+to refresh ubuntu this is one option
+
+I would first try this quick GUI way to see if restarts GNOME, but in case your desktop is fully frozen and doesn’t respond, you should try method 2.
+
+Step 1) Press ALT and F2 simultaneously. In modern laptop, you may need to additionally press the Fn key too (if it exists) to activate Function keys.
+
+Step 2) Type r in the command box and press enter.
+
+Method 2: From Terminal
+
+Step 1) Launch ‘Terminal’.
+
+Step 2) Enter the following command and press enter.
+
+gnome-shell --replace & disown
